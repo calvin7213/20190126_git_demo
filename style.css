@@ -1,0 +1,113 @@
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @calvin7213 Sign out
+0
+0 0 calvin7213/20190126_git_demo
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
+20190126_git_demo/style.css
+38faeff  6 minutes ago
+@calvin7213 calvin7213 Update style.css
+@AlexHsu0130 @calvin7213
+     
+83 lines (61 sloc)  1.09 KB
+/*common*/
+@import url('https://fonts.googleapis.com/css?family=Concert+One');
+
+
+
+/* navbar */
+.navbar{
+    background-color: pink;
+}
+
+
+
+
+
+/* slider */
+.slider{
+    width: 100px;
+    margin: 100px auto;
+}
+.carousel-inner{
+    border: 10px solid pink;
+}
+/* download */
+.btn{
+    width: 200px;
+    margin: 0px auto 90px auto;
+    background-color: pink;
+    border:0;
+}
+.download{
+    margin: auto auto auto 40px;
+}
+
+.copyright{
+    background-color: pink;
+
+}
+.news{
+    width: 1500px;
+    height: 800px;
+    border: 20px solid pink;
+    margin: 50px auto;
+}
+
+.login{
+
+}
+
+.card{
+    margin: 100px auto;
+    border: 10px solid pink;
+    border-radius: 10%;
+}
+
+
+
+#registerPageHr{
+    border: 2px solid pink;
+    border-radius: 5px;
+}
+
+
+
+@media screen and (max-width: 650px){
+    .focus > h1{
+        font-size: 50px;
+    }
+
+    .focus > h2{
+        font-size: 30px;
+    }
+    .main{
+        padding: 70px 50px 100px 50px;
+    }
+}
+
+/* < 400 */
+@media screen and (max-width: 450px){
+    .main{
+        padding: 70px 50px 200px 50px;
+    }
+}
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details.
